@@ -35,8 +35,8 @@ Before running this application, ensure you have:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/AaronPrimmer/inventory-management-system.git
-cd inventory-management-system
+git clone https://github.com/AaronPrimmer/Command-Database.git
+cd command-database
 ```
 
 2. Install dependencies:
