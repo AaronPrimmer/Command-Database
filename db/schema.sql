@@ -1,0 +1,19 @@
+CREATE DATABASE inventory_management;
+
+\c inventory_management;
+
+CREATE TABLE suppliers (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(60) UNIQUE NOT NULL,
+	email VARCHAR(100),
+	phone VARCHAR(30)
+);
+
+CREATE TABLE products (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(60) NOT NULL,
+    category VARCHAR(40) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    quantity INT NOT NULL,
+    supplier_id INTEGER REFERENCES suppliers(id) ON DELETE SET NULL
+);
