@@ -17,6 +17,7 @@ A command-line inventory database management system built with Node.js and Postg
 ## Technologies
 
 - **Node.js** - Runtime environment
+- **Express** - API and Routing Management
 - **PostgreSQL** - Database management system
 - **Inquirer.js** - Interactive command-line interface
 - **Chalk** - Terminal styling and colors
@@ -26,7 +27,7 @@ A command-line inventory database management system built with Node.js and Postg
 
 Before running this application, ensure you have:
 
-- Node.js (v14 or higher)
+- Node.js (v20 or higher)
 - PostgreSQL installed and running locally
 - npm or yarn package manager
 
