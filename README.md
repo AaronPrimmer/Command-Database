@@ -1,6 +1,13 @@
 # Inventory Management System
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Node.js Version](https://img.shields.io/badge/node-%3E%3D24.0.0-brightgreen)
+
 A command-line inventory database management system built with Node.js and PostgreSQL. This application provides an interactive interface for managing products, suppliers, and inventory operations.
+
+## Video Walkthrough
+
+[![Aaron's Week 12 Homework Walkthrough](https://img.youtube.com/vi/Y3_tUO2LgfY/0.jpg)](https://www.youtube.com/watch?v=Y3_tUO2LgfY)
 
 ## Features
 
