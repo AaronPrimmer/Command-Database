@@ -55,7 +55,7 @@ npm install
 ```
 DB_USER=your_username
 DB_HOST=localhost
-DB_NAME=inventory_db
+DB_NAME=database_name
 DB_PASSWORD=your_password
 DB_PORT=5432
 ```
