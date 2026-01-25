@@ -24,7 +24,6 @@ A command-line inventory database management system built with Node.js and Postg
 ## Technologies
 
 - **Node.js** - Runtime environment
-- **Express** - API and Routing Management
 - **PostgreSQL** - Database management system
 - **Inquirer.js** - Interactive command-line interface
 - **Chalk** - Terminal styling and colors
